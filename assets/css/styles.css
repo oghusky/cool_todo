@@ -18,7 +18,7 @@ body{
 /* form */
 form{
   /* sets form width */
-  width: 50%;
+  width: 40%;
   /* puts for 2 rem from top and middle of page left and right */
   margin: 2rem auto 0rem;
 }
@@ -35,7 +35,7 @@ p.text-right{
 /* todo list */
 #todo_list{
   /* sets width to equal form*/
-  width: 50%;
+  width: 40%;
   /* removes padding from bootstrap auto setting of padding*/
   padding: 0;
   /* brings todo list to middle of page */
@@ -52,6 +52,8 @@ p.text-right{
 }
 
 .todo_div{
+  /* size of text in todo item */
+  font-size: 20px;
   /* because of boostrap auto styles bottom already has margin */
   /* so padding is set on sides to that it matches bottom styles */
   padding: var(--standard-spacing) var(--standard-spacing) 0 var(--standard-spacing);
@@ -74,6 +76,10 @@ p.text-right{
   outline: none;
   /* makes buttons and todo text sit at same line height */
   margin-top: -1rem;
+}
+.far{
+  /* controls the size of the font awesome icons */
+  font-size: 15px;
 }
 /* removes all bootstrap stylings for btn focus */
 .btn-outline-success:focus,
